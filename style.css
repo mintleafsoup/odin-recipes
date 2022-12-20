@@ -1,4 +1,3 @@
-/* overall styling */ 
 body {
     font-family: sans-serif;
     background-color: rgb(223, 207, 186);
@@ -15,7 +14,6 @@ h2 {
     color: rgb(63, 51, 36);
 }
 
-/* proberen om alle ul en ol te veranderen naar links staande buiten de ul in de index */ 
 ul {
     list-style-type: none;
     text-align: left;
@@ -32,7 +30,6 @@ p {
     background-color: rgba(69, 129, 69, 0.429);
 }
 
-/*The styling for the overview page on index.html*/ 
 .overview {
     background-color: rgba(54, 50, 20, 0.661);
     text-align: center; 
@@ -52,13 +49,10 @@ p {
     text-align: center;
 }
 
-/*Working on the split pea soup styling */ 
-
 .soup h2 {
     text-align: center;
 }
 
-/* styling the img */ 
 .chili-img {
     width: 400px;
 }
