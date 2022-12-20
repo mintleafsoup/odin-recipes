@@ -1,3 +1,4 @@
+/* overall styling */ 
 body {
     font-family: sans-serif;
     background-color: rgb(223, 207, 186);
@@ -6,7 +7,8 @@ body {
 }
 
 h1 {
-    color: rgb(41, 89, 41);  
+    color: rgb(41, 89, 41); 
+    text-align: center; 
 }
 
 h2 {
@@ -23,11 +25,18 @@ ol {
     text-align: left;
 }
 
+p {
+    font-size: 20px;
+    color:rgb(34, 68, 56);
+    border: 2px solid;
+    background-color: rgba(69, 129, 69, 0.429);
+}
+
 /*The styling for the overview page on index.html*/ 
 .overview {
-    background-color: rgb(61, 115, 97);
+    background-color: rgba(54, 50, 20, 0.661);
     text-align: center; 
-    border: 2px solid black;
+    border: 2px solid rgb(43, 45, 30);
 }
 
 .overview li {
@@ -35,7 +44,7 @@ ol {
 }
 
 .overview a {
-    color: goldenrod; 
+    color: rgb(242, 192, 67); 
     font-size: 20px;
 }
 
@@ -45,18 +54,8 @@ ol {
 
 /*Working on the split pea soup styling */ 
 
-.soup-ingr {
-    text-align: left;
-}
-
 .soup h2 {
     text-align: center;
-}
-
-.soup p {
-    font-size: 20px;
-    color:rgb(61, 115, 97);
-    border: 2px solid;
 }
 
 /* styling the img */ 
