@@ -1,16 +1,25 @@
 body {
     font-family: sans-serif;
+    background-color: antiquewhite;
+    text-align: center;
 }
 
 h1 {
-    color: green; 
+    color: rgb(60, 173, 60);  
 }
 
-.cake-img {
-    width: 300px;
-    height: 30px; 
+
+.overview {
+    background-color: rgb(61, 115, 97);
+    text-align: center; 
+    border: 2px solid black;
 }
 
-li a {
-    color: pink; 
+.overview li {
+    list-style-type: none;
+}
+
+.overview a {
+    color: goldenrod; 
+    font-size: 20px;
 }
