@@ -5,10 +5,10 @@ body {
 }
 
 h1 {
-    color: rgb(60, 173, 60);  
+    color: rgb(87, 186, 87);  
 }
 
-
+/*The styling for the overview page on index.html*/ 
 .overview {
     background-color: rgb(61, 115, 97);
     text-align: center; 
@@ -22,4 +22,23 @@ h1 {
 .overview a {
     color: goldenrod; 
     font-size: 20px;
+}
+
+/*Working on the split pea soup styling */ 
+.split-pea-img {
+    width: 400px;
+}
+
+.soup-ingr {
+    text-align: left;
+}
+
+.soup h2 {
+    text-align: center;
+}
+
+.soup p {
+    font-size: 20px;
+    color:rgb(61, 115, 97);
+    border: 2px solid;
 }
