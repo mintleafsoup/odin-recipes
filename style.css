@@ -8,6 +8,16 @@ h1 {
     color: rgb(87, 186, 87);  
 }
 
+/* proberen om alle ul en ol te veranderen naar links staande buiten de ul in de index */ 
+ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+ol {
+    text-align: left;
+}
+
 /*The styling for the overview page on index.html*/ 
 .overview {
     background-color: rgb(61, 115, 97);
@@ -22,6 +32,10 @@ h1 {
 .overview a {
     color: goldenrod; 
     font-size: 20px;
+}
+
+#centered-list {
+    text-align: center;
 }
 
 /*Working on the split pea soup styling */ 
